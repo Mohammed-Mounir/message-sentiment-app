@@ -1,0 +1,43 @@
+$color-dark--1: #2d3439;
+$color-dark--2: #42484d;
+
+$color-light--1: #33c067;
+$color-light--2: #ea384d;
+$color-light--3: #6dd5ed;
+
+.popup {
+  :global {
+    .leaflet-popup-content-wrapper {
+      border-radius: 3px;
+      text-align: center;
+    }
+
+    .leaflet-popup-content {
+      font-size: 1rem;
+    }
+  }
+}
+
+.positive {
+  :global {
+    .leaflet-popup-content-wrapper {
+      border-left: 10px solid $color-light--1;
+    }
+  }
+}
+
+.negative {
+  :global {
+    .leaflet-popup-content-wrapper {
+      border-left: 10px solid $color-light--2;
+    }
+  }
+}
+
+.neutral {
+  :global {
+    .leaflet-popup-content-wrapper {
+      border-left: 10px solid $color-light--3;
+    }
+  }
+}

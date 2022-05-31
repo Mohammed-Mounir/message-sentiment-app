@@ -1,0 +1,46 @@
+{
+  "Entries": {
+    "Entry": [
+      {
+        "message": "It is very hot in, Cairo",
+        "sentiment": "Neutral",
+        "location": {
+          "latitude": 30.033333,
+          "longitude": 31.233334
+        }
+      },
+      {
+        "message": "There is new project started in, Nairobi",
+        "sentiment": "Positive",
+        "location": {
+          "latitude": -1.286389,
+          "longitude": 36.817223
+        }
+      },
+      {
+        "message": "Dubai EXPO 2020 will create a new image for the middle, Dubai",
+        "sentiment": "Positive",
+        "location": {
+          "latitude": 25.276987,
+          "longitude": 55.296249
+        }
+      },
+      {
+        "message": "I hate black people, there are so many of them in, New York",
+        "sentiment": "Negative",
+        "location": {
+          "latitude": 40.73061,
+          "longitude": -73.935242
+        }
+      },
+      {
+        "message": "Do you COVID Vaccine, Jeddh, is good?",
+        "sentiment": "Negative",
+        "location": {
+          "latitude": 21.543333,
+          "longitude": 39.172779
+        }
+      }
+    ]
+  }
+}

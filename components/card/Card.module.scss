@@ -1,0 +1,52 @@
+$color-dark--1: rgba(0, 0, 0, 0.2);
+$color-dark--2: #42484d;
+$color-light--1: white;
+$color-light--2: #33c067;
+$color-light--3: #ea384d;
+$color-light--4: #6dd5ed;
+
+$background-color-1: linear-gradient(to right, #1d976c, #33c067);
+$background-color-2: linear-gradient(to right, #d31027, #ea384d);
+$background-color-3: linear-gradient(to right, #2193b0, #6dd5ed);
+
+.card {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+  padding: 10px 15px;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px $color-dark--1;
+  color: $color-light--1;
+  font-size: 14px;
+  transition: all 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    background: none;
+    background-color: $color-light--1;
+    color: $color-dark--2;
+  }
+}
+
+.positive {
+  background: $background-color-1;
+
+  &:hover {
+    box-shadow: -5px 5px 0px 3px $color-light--2;
+  }
+}
+
+.negative {
+  background: $background-color-2;
+  &:hover {
+    box-shadow: -5px 5px 0px 3px $color-light--3;
+  }
+}
+
+.neutral {
+  background: $background-color-3;
+  &:hover {
+    box-shadow: -5px 5px 0px 3px $color-light--4;
+  }
+}
